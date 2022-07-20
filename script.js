@@ -36,3 +36,4 @@ button2.addEventListener("click", clk);
 button3.addEventListener("click", clk);
 button4.addEventListener("click", clk);
 button5.addEventListener("click", clk);
+
