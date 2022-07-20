@@ -215,7 +215,7 @@ li:hover{
     text-align: center;
 }
 .item-box1{
-    /*box-shadow: 10px 5px 5px blue;*/
+    box-shadow: 10px 5px 5px blue;
 }
 .item-box2{
     box-shadow: 10px 5px 5px #A7FC00;
@@ -302,20 +302,4 @@ li:hover{
     font-size: 60px;
     margin-left: 260px;
     margin-right: 110px;
-}
-@font-face {
-    font-family: Quite Chocolatey;
-    src: url("Quite Chocolatey.ttf");
-}
-@font-face {
-    font-family: Myriad Pro;
-    src: url("Myriad Pro.ttf");
-}
-@font-face {
-    font-family: Montserrat Bold;
-    src: url("Montserrat.ttf");
-}
-@font-face {
-    font-family: PTSerif Regular;
-    src: url("PT Serif.ttf");
 }

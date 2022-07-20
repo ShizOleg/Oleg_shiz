@@ -230,6 +230,7 @@ animation-duration: 0.45s;
     87%{top: -3px;}
     100% {top: 0;}
 }
+
 @keyframes bounce-2 {
     100% {
         top: -20px;
