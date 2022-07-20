@@ -83,11 +83,11 @@
 }
 #active:checked + .menu-btn:before {
     transform: rotate(45deg);
-    border-color: #000;
+    border-color: #fff;
 }
 #active:checked + .menu-btn:after {
     transform: rotate(-45deg);
-    border-color: #000;
+    border-color: #fff;
 }
 .wrapper ul{
     position: absolute;
