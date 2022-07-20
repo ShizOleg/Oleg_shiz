@@ -50,6 +50,11 @@
     /* background: linear-gradient(-45deg, #e3eefe 0%, #efddfb 100%); */
     transition: all 0.3s ease-in-out;
 }
+.menu-btn:hover{
+    border-bottom: 20px solid #fff;
+
+}
+
 .menu-btn span,
 .menu-btn:before,
 .menu-btn:after{
