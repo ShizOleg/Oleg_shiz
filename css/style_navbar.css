@@ -30,7 +30,7 @@
       color:white;
   }
 .menu-btn{
-    position: absolute;
+    position: fixed;
     z-index: 2;
     right: 20px;
     /*left: 20px; */
@@ -43,6 +43,7 @@
     font-size: 30px;
     cursor: pointer;
     color: #fff;
+    background: black;
   /*  background: white;*/
     /*background: linear-gradient(90deg, #f92c78, #4114a1);*/
     /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
