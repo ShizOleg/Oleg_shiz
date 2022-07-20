@@ -4,6 +4,7 @@
 
     background: black;
     height: 100vh;
+    max-width: 100%;
 }
 .quote{
     margin-top: 20vh;
