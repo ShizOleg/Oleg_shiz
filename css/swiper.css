@@ -3,12 +3,10 @@
     height: 100vh;
 }
 .image1{
-    margin-left: auto;
-    margin-right: auto;
-    vertical-align: middle;
+
+    text-align: center;
 
 }
 .swiper-wrapper{
-    display: flex;
-    justify-content: space-around;
+
 }
