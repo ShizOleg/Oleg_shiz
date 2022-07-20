@@ -275,7 +275,7 @@ animation-duration: 0.45s;
     width: inherit;
     height: inherit;
     transform-style: preserve-3d;
-    transition: transform 0.6s;
+    transition: transform 1.5s;
 }
 
 .cube-face {
