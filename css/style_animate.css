@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
 
 .anim {
     background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
@@ -56,4 +57,191 @@
 .arrow4{
     margin-left: 47%;
     margin-top: 50%;
+}
+
+
+.wave-box {
+    -webkit-font-smoothing: antialiased;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wave {
+    height: 300px;
+    width: 1500px;
+}
+
+.wave span {
+    position: relative;
+    top: 5px;
+    display: inline-block;
+    animation: bounce .3s ease infinite alternate;
+    font-family: 'Titan One',cursive;
+    font-size: 40px;
+    color: #000;
+    text-shadow: 0 1px 0 red,
+    0 2px 0 red,
+    0 3px 0 red,
+    0 4px 0 red,
+    0 5px 0 red,
+    0 6px 0 transparent,
+    0 7px 0 transparent,
+    0 8px 0 transparent,
+    0 9px 0 transparent,
+    0 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+.wave span:nth-child(2) {
+    animation-delay: .1s;
+}
+
+.wave span:nth-child(3) {
+    animation-delay: .2s;
+}
+
+.wave span:nth-child(4) {
+    animation-delay: .3s;
+}
+
+.wave span:nth-child(5) {
+    animation-delay: .4s;
+}
+
+.wave span:nth-child(6) {
+    animation-delay: .5s;
+}
+
+.wave span:nth-child(7) {
+    animation-delay: .6s;
+}
+
+.wave span:nth-child(8) {
+    animation-delay: .7s;
+}
+
+@keyframes bounce {
+    100% {
+        top: -20px;
+        text-shadow: 0 1px 0 #CCC,
+        0 2px 0 #CCC,
+        0 3px 0 #CCC,
+        0 4px 0 #CCC,
+        0 5px 0 #CCC,
+        0 6px 0 #CCC,
+        0 7px 0 #CCC,
+        0 8px 0 #CCC,
+        0 9px 0 #CCC,
+        0 50px 25px rgba(0, 0, 0, 0.2);
+    }
+}
+
+
+
+:root {
+    --background: #060608;
+    --color: #FAFAFA;
+}
+
+
+
+.container_effect {
+    color: var(--color);
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.right {
+    text-align: right;
+    width: 100%;
+}
+
+.stack {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.stack span {
+    font-weight: bold;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    font-size: 4rem;
+    --stack-height: calc(100% / var(--stacks) - 1px);
+    --inverse-index: calc(calc(var(--stacks) - 1) - var(--index));
+    --clip-top: calc(var(--stack-height) * var(--index));
+    --clip-bottom: calc(var(--stack-height) * var(--inverse-index));
+    clip-path: inset(var(--clip-top) 0 var(--clip-bottom) 0);
+    animation: stack 340ms cubic-bezier(.46,.29,0,1.24) 1 backwards calc(var(--index) * 120ms), glitch 1s ease infinite 1s alternate-reverse;
+}
+
+.stack span:nth-child(odd) { --glitch-translate: 8px; }
+.stack span:nth-child(even) { --glitch-translate: -8px; }
+
+@keyframes stack {
+    0% {
+        opacity: 0;
+        transform: translateX(-50%);
+        text-shadow: -2px 3px 0 red, 2px -3px 0 blue;
+    }
+60% {
+    opacity: 0.5;
+    transform: translateX(50%);
+}
+80% {
+    transform: none;
+    opacity: 1;
+    text-shadow: 2px -3px 0 red, -2px 3px 0 blue;
+}
+100% {
+    text-shadow: none;
+}
+}
+
+@keyframes glitch {
+    0% {
+        text-shadow: -2px 3px 0 red, 2px -3px 0 blue;
+        transform: translate(var(--glitch-translate));
+    }
+    20% {
+        text-shadow: 2px -3px 0 red, -2px 3px 0 blue;
+    }
+    60%, 100% {  text-shadow: none; transform: none; }
+}
+
+.jump{
+animation-name: jumping;
+animation-iteration-count: infinite;
+animation-duration: 0.45s;
+    animation: bounce-2 .6s ease infinite alternate;
+    position:relative;
+    font-size: 100px;
+    vertical-align: middle;
+    margin-left: 50px;
+}
+@keyframes jumping {
+    0% {top: 0;}
+    17%{top: -3px;}
+    25%{top: -5px;}
+    33%{top: -7px;}
+    50%{top: -10px;}
+    66%{top: -7px;}
+    75%{top: -5px;}
+    87%{top: -3px;}
+    100% {top: 0;}
+}
+@keyframes bounce-2 {
+    100% {
+        top: -20px;
+        text-shadow: 0 3px 0 red,
+        0 2px 0 #CCC,
+        0 3px 0 #CCC,
+        0 4px 0 #CCC,
+        0 5px 0 #CCC,
+        0 6px 0 #CCC,
+        0 7px 0 #CCC,
+        0 8px 0 #CCC,
+        0 9px 0 #CCC,
+        0 50px 25px rgba(0, 0, 0, 0.2);
+    }
 }
