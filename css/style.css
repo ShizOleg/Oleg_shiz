@@ -1,0 +1,321 @@
+*{
+    box-sizing: border-box;
+    font-family: Tahoma, sans-serif;
+}
+.site{
+
+}
+.box{
+    margin: 0 auto;
+}
+.box1{
+
+}
+.container1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon{
+    font-family: "Quite Chocolatey", sans-serif, Tahoma;
+    font-size: 60px;
+    color: #ffffff;
+    margin-left: 86px;
+    margin-right: 0;
+}
+.icon-main{
+    cursor:pointer;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+}
+.select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Myriad Pro", sans-serif, Tahoma;
+    font-size: 18px;
+    height: 38px;
+    color: #ffffff;
+    list-style: none;
+}
+li{
+    margin-left: 5px;
+    padding: 12px;
+    cursor:pointer;
+}
+li:hover{
+    background-color: #000033;
+    border-radius: 5px;
+}
+.text1,.text2{
+    font-size: 70px;
+    font-family: "Montserrat Bold", sans-serif, Tahoma;
+    color: rgb(19, 14, 39);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 100px;
+    padding: 0;
+    height: 70px;
+}
+.text1{
+    margin-top: 128px;
+}
+.text2{
+    color: #ffffff;
+}
+.text3{
+    font-size: 18px;
+    font-family: "PTSerif Regular", sans-serif, Tahoma;
+    color: #ffffff;
+    margin-left: 106px;
+    margin-top: 48px;
+    line-height: 1.4;
+}
+
+.box2{
+    padding-bottom: 100px;
+    padding-top: 100px;
+    height: 100vh;
+}
+.text-about{
+    margin: 200px;
+    font-size: 40px;
+}
+.box3{
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background: black;
+    color:white;
+    height: 100vh;
+}
+.box4{
+    padding-bottom: 100px;
+    padding-top: 100px;
+    height: 100vh;
+
+}
+.our_services{
+    font-size: 40px;
+    font-family: "Montserrat Bold", sans-serif, Tahoma;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 98px;
+    margin-top: 44px;
+}
+.text4{
+    width: 90px;
+    color: #cc3300;
+}
+.text5{
+    width: 240px;
+    margin-left: 0;
+    color: #130e27;
+}
+
+.container2{
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+.item{
+    width: 170px;
+}
+.text-item{
+    font-family: "PTSerif Regular", sans-serif, Tahoma;
+    text-align: center;
+    margin-top: 30px;
+}
+.icon-item{
+    font-size: 160px;
+    color: #000033;
+    text-align: center;
+}
+
+.text6{
+    font-size: 18px;
+    font-family: "PTSerif Regular", sans-serif, Tahoma;
+    line-height: 1.4;
+    color: #eeeeee;
+    width: 600px;
+    margin-left: 104px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.story-button{
+    width:270px;
+    height: 64px;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-family: "Montserrat Bold", sans-serif, Tahoma;
+    text-align: center;
+    background-color: #c62314;
+    border-radius: 5px;
+    color: #eeeeee;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+.story-button:hover{
+    background-color: white;
+    color:#c62314;
+    border: 2px solid #c62314;
+}
+.box5{
+  /*  height: 860px;*/
+    background-color: black;
+    height: 100vh;
+}
+.box6{
+  /*  height: 615px;*/
+    background-color: white;
+    height: 100vh;
+}
+.text7{
+    padding-top: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 50px;
+    font-family: "Montserrat Bold", sans-serif, Tahoma;
+    color: white;
+    font-weight: bold;
+    line-height: 1.6;
+    text-align: center;
+    padding-bottom: 32px;
+}
+.fa-rub{
+    font-size: 40px;
+}
+.otstup{
+    height: 40px;
+}
+.text-p-1{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.text-p-2{
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.container3{
+    display: flex;
+    justify-content: space-around;
+}
+.item-box{
+    width: 320px;
+    height: 392px;
+    background-color: #ffffff;
+    text-align: center;
+}
+.item-box1{
+    /*box-shadow: 10px 5px 5px blue;*/
+}
+.item-box2{
+    box-shadow: 10px 5px 5px #A7FC00;
+}
+.item-box3{
+    box-shadow: 10px 5px 5px #FF4143;
+}
+.item-box:hover{
+    box-shadow: 7px 3px 3px #393939;
+}
+.name,.point{
+    font-size: 22px;
+    font-family: "PTSerif Regular", sans-serif, Tahoma;
+    color: rgb(22, 22, 22);
+}
+.name{
+    margin-top: 30px;
+    font-weight: bold;
+}
+.price{
+    font-size: 60px;
+    font-family: "Montserrat Bold", sans-serif, Tahoma;
+    color: rgb(198, 35, 20);
+    font-weight: bold;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.button-buy{
+    font-size: 22px;
+    font-family: "Montserrat Bold", sans-serif, Tahoma;
+    color: white;
+    width: 204px;
+    height: 48px;
+    background-color: #1f33ff;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: 58px;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.type-green{
+    background-color: #008000;
+}
+.button-buy:hover{
+    color: #130e27;
+    background-color: white;
+    border: solid 2px black;
+}
+.type-red{
+    background-color: #c62314;
+}
+.type-red:hover{
+    color: #c62314;
+    background-color: white;
+    border: solid 2px #c62314;
+}
+.footer{
+    height: 164px;
+    background-color: #000;
+    margin: 0 auto;
+}
+.footer-box{
+    font-size: 20px;
+    font-family: "PTSerif Regular", sans-serif, Tahoma;
+    color: #eeeeee;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    margin-left: 86px;
+    display: flex;
+    justify-content: left;
+}
+.text-footer,.author{
+    font-size: 20px;
+    font-family: "PTSerif Regular", sans-serif, Tahoma;
+    color: #eeeeee;
+}
+.author{
+    color: #c62314;
+    margin-left: 5px;
+}
+.footer-icon{
+    color: #c62314;
+    font-size: 60px;
+    margin-left: 260px;
+    margin-right: 110px;
+}
+@font-face {
+    font-family: Quite Chocolatey;
+    src: url("Quite Chocolatey.ttf");
+}
+@font-face {
+    font-family: Myriad Pro;
+    src: url("Myriad Pro.ttf");
+}
+@font-face {
+    font-family: Montserrat Bold;
+    src: url("Montserrat.ttf");
+}
+@font-face {
+    font-family: PTSerif Regular;
+    src: url("PT Serif.ttf");
+}

@@ -1,0 +1,59 @@
+
+.anim {
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    background-size: 400%;
+    transition: opacity .3s ease-in-out;
+    animation: animate 20s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+
+.arrow-5 {
+    width:70px;
+    height:40px;
+    display: grid;
+    overflow: hidden;
+    transform: rotate(90deg);
+    margin-left: 43vw;
+    margin-top: 30vh;
+    transition: transform .2s ease-in-out;
+}
+.arrow-5:before,
+.arrow-5:after {
+    content: "";
+    grid-area: 1/1;
+    background: currentColor;
+    clip-path: polygon(0 10px,calc(100% - 15px) 10px,calc(100% - 15px) 0,100% 50%,calc(100% - 15px) 100%,calc(100% - 15px) calc(100% - 10px),0 calc(100% - 10px));
+    animation: a5 1s infinite;
+    transform: translate(calc(0% + var(--s,0%)));
+}
+
+.arrow-5:after {
+    --s:-100%;
+}
+
+@keyframes a5 {
+    80%,100%{transform: translate(calc(100% + var(--s,0%)))}
+}
+.arrow2{
+    margin-left: 46vw;
+}
+.arrow3{
+    margin-left: 36vw;
+    margin-top: 18vh;
+}
+.arrow4{
+    margin-left: 47vw;
+    margin-top: 50vh;
+}

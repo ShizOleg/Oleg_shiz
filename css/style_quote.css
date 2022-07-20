@@ -1,0 +1,43 @@
+.quote_container{
+    display: flex;
+    justify-content: space-between;
+
+    background: black;
+    height: 100vh;
+}
+.quote{
+    margin-top: 20vh;
+    margin-left: 4vw;
+    color: white;
+    text-align: center;
+}
+.quote-p{
+    text-align: center;
+    font-size: 50px;
+    font-family: "Signika", sans-serif;
+}
+.quote-h3{
+    margin-top: 5vh;
+    text-align: center;
+    font-size: 30px;
+
+}
+.fa-copyright{
+    margin-right: 3vh;
+}
+.fa-icon-quote{
+    font-size: 50px;
+    box-sizing: border-box;
+
+}
+
+
+
+.image{
+
+}
+
+@font-face {
+    font-family: Signika;
+    src: url("Signika.ttf");
+}
