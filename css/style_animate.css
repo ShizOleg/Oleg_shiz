@@ -68,12 +68,11 @@
 }
 
 .wave {
-    height: 300px;
-    width: 1500px;
+
 }
 
 .wave span {
-    position: relative;
+
     top: 5px;
     display: inline-block;
     animation: bounce .3s ease infinite alternate;
@@ -318,28 +317,33 @@ animation-duration: 0.45s;
 }
 
 
- #radio-back:checked ~ .scene .cube {
+#radio-back:checked  .scene .cube {
        transform: rotateY(180deg);
    }
 
-#radio-left:checked ~ .scene .cube {
+#radio-left:checked  .scene .cube {
     transform: rotateY(90deg);
 }
 
-#radio-right:checked ~ .scene .cube {
+#radio-right:checked  .scene .cube {
     transform: rotateY(-90deg);
 }
 
-#radio-top:checked ~ .scene .cube {
+#radio-top:checked  .scene .cube {
     transform: rotateX(-90deg);
 }
 
-#radio-bottom:checked ~ .scene .cube {
+#radio-bottom:checked  .scene .cube {
     transform: rotateX(90deg);
 }
 .control{
-    margin-right: 200px;
+    opacity: 1;
+    margin-left: 50px;
+}
+.controls{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
 
 }
-
 

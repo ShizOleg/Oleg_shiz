@@ -2,9 +2,10 @@
     box-sizing: border-box;
     font-family: Tahoma, sans-serif;
 }
-.site{
-
+body{
+    margin: 0;
 }
+
 .box{
 
 }
@@ -74,11 +75,19 @@ li:hover{
     margin-top: 48px;
     line-height: 1.4;
 }
-
+.box1{
+    background: black;
+    height: 100vh;
+    margin: 0;
+}
 .box2{
     padding-bottom: 100px;
     padding-top: 100px;
     height: 100vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 .text-about{
     margin: 200px;
@@ -171,8 +180,27 @@ li:hover{
 .box5{
   /*  height: 860px;*/
     background-color: black;
-    height: 100vh;
+    height: 50vh;
 }
+@media screen and (min-width: 762px){
+    .box4{
+        height: 50vh;
+    }
+    .box5{
+
+        height: 50vh;
+    }
+}
+@media screen and (min-width: 1280px){
+    .box4{
+        height: 100vh;
+    }
+    .box5{
+
+        height: 100vh;
+    }
+}
+
 .box6{
   /*  height: 615px;*/
     background-color: white;

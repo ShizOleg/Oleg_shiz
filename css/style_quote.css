@@ -1,27 +1,54 @@
 .quote_container{
-    display: flex;
-    justify-content: space-between;
-
     background: black;
     height: 100vh;
-    max-width: 100%;
+    width: 100%;
 }
 .quote{
-    margin-top: 20vh;
+    margin-top: 25vh;
     margin-left: 4vw;
     color: white;
     text-align: center;
 }
+.image{
+    padding-left: 200px;
+    padding-top: 50px;
+}
 .quote-p{
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
     font-family: "Signika", sans-serif;
 }
 .quote-h3{
-    margin-top: 5vh;
+    margin-top: 10vh;
     text-align: center;
     font-size: 30px;
 
+}
+
+
+@media screen and (min-width: 768px){
+    .quote-p{
+        font-size: 35px;
+    }
+    .quote{
+        margin-top: 10vh;
+    }
+    .image{
+        padding-left: 0;
+        padding-top: 50px;
+    }
+    .quote-h3{
+        margin-top: 3vh;
+        font-size: 30px;
+    }
+}
+@media screen and (min-width: 1280px){
+    .quote-p{
+        font-size: 40px;
+    }
+    .quote{
+        margin-top: 10vh;
+    }
 }
 .fa-copyright{
     margin-right: 3vh;
@@ -32,11 +59,6 @@
 
 }
 
-
-
-.image{
-
-}
 
 @font-face {
     font-family: Signika;
