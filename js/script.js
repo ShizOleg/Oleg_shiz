@@ -1,7 +1,7 @@
-
+document.addEventListener('DOMContentLoaded', function() {
     let elems = document.querySelectorAll('.carousel');
     let instances = M.Carousel.init(elems, options);
-
+});
 
     let button1 = document.getElementById("btn1");
     let button2 = document.getElementById("btn2");
