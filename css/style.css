@@ -239,7 +239,7 @@ li:hover{
     margin-top: 200px;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (min-width: 600px){
     .container3 > .row1{
         display: grid;
         grid-template-columns: 1fr;
