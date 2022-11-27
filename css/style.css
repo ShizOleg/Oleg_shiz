@@ -236,16 +236,17 @@ li:hover{
 .container3{
     display: flex;
     justify-content: center;
+    margin-top: 200px;
 }
 
 @media screen and (min-width: 600px){
     .container3 > .row{
         display: grid;
         grid-template-columns: 1fr;
-        grid-gap: 50px;
+        grid-gap: 200px;
     }
     .box5{
-        height: 3500px;
+        height: 3800px;
     }
 }
 @media screen and (min-width: 1280px){
@@ -255,7 +256,7 @@ li:hover{
         grid-gap: 200px;
     }
     .box5{
-        height: 100vh;
+        height: 110vh;
     }
 }
 .item-box{
