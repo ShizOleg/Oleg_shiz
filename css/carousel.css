@@ -1,0 +1,29 @@
+.carousel{
+    width: 80vw;
+    margin: auto;
+}
+@media screen and (min-width: 600px){
+    .carousel{
+        height: 50vh;
+        margin-top: 300px;
+    }
+}
+@media screen and (min-width: 1280px){
+    .carousel{
+        height: 100vh;
+    }
+    .carousel .carousel-item {
+        height: 100%;
+    }
+}
+.carousel-item{
+    /*height: 30vh;*/
+}
+.carousel .carousel-item {
+    width: 50%;
+    height: 100%;
+    min-height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

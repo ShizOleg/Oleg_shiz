@@ -228,13 +228,35 @@ li:hover{
     font-size: 40px;
     font-weight: bolder;
 }
+
 .text-p-2{
     margin-left: 40px;
     margin-top: 50px;
 }
 .container3{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+}
+
+@media screen and (min-width: 600px){
+    .container3 > .row{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 50px;
+    }
+    .box5{
+        height: 2000px;
+    }
+}
+@media screen and (min-width: 1280px){
+    .container3 > .row{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 200px;
+    }
+    .box5{
+        height: 100vh;
+    }
 }
 .item-box{
     width: 320px;
@@ -254,7 +276,8 @@ li:hover{
 }
 .item-box:hover{
     box-shadow: 7px 3px 3px #393939;
-    transform: scale(1.2);
+    scale: 1.2;
+    transition: scale 1s;
 }
 .name,.point{
     font-size: 22px;
@@ -307,7 +330,7 @@ li:hover{
     height: 164px;
     background-color: #000;
     margin: 0 auto;
-    margin-top: 200px;
+    /*margin-top: 200px;*/
 }
 .footer-box{
     font-size: 20px;
